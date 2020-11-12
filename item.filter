@@ -12,7 +12,7 @@ ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw) (MAG OR RARE OR NMAG) (!ETH AND !INF)]:%W
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
 //Show me number of sockets on ID items
-ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ARMOR OR WEAPON) (SUP OR MAG OR RARE OR SET OR UNI) SOCK>0]: %NAME% %TAN%[%SOCKETS%]
 
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
