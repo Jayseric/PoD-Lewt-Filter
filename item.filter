@@ -1,4 +1,4 @@
-# PoD Lewt Filter
+// PoD Lewt Filter
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
