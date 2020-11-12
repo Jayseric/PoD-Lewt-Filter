@@ -2,7 +2,7 @@
 
 //Gold
 ItemDisplay[GOLD<100 CLVL<20]:
-ItemDisplay[GOLD<1000 (CLVL>19 AND CLVL<80)]:
+ItemDisplay[GOLD<500 (CLVL>19 AND CLVL<80)]:
 ItemDisplay[GOLD<2500 CLVL>79]:
 
 //Throws 35k+
