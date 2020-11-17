@@ -247,7 +247,7 @@ ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
 ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
 ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
 ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
-ItemDisplay[(zmb OR umc) MAG]: %NAME% %PURPLE%[tal] %GRAY%[%ILVL%]
+ItemDisplay[(mbl OR zmb OR umc) MAG]: %NAME% %PURPLE%[tal] %GRAY%[%ILVL%]
 ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
 ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
 
