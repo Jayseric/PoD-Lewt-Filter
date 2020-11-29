@@ -7,7 +7,7 @@ ItemDisplay[GOLD<2500 CLVL>79]:
 
 //Throws and Wands 35k+
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %WHITE%throw %TAN%[35k]
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %NAME% %TAN%[35K]
+ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %NAME% %TAN%[$$]
 
 //Show me number of sockets on ETH AND ID items
 ItemDisplay[(ARMOR OR WEAPON) ((MAG OR RARE OR SET OR UNI) AND ETH) SOCK>0]: %NAME% %GRAY%ETH %TAN%[%SOCKETS%]
@@ -234,7 +234,6 @@ ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
 //Rings and amulets
 ItemDisplay[(rin OR amu) RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
-ItemDisplay[(rin OR amu) MAG ILVL>90]: %NAME% %WHITE%[%ILVL%]
 ItemDisplay[(rin OR amu) MAG]: %NAME% %GRAY%[%ILVL%]
 
 //Jewels
@@ -245,11 +244,14 @@ ItemDisplay[jew RARE !ID]: %TAN%»» %YELLOW%%NAME%%TAN% ««
 ItemDisplay[(ARMOR OR WEAPON) !(NMAG OR MAG OR RARE OR SET OR UNI)]: %NAME%
 ItemDisplay[(uvg OR xvg) MAG]: %NAME% %RED%[nef] %GRAY%[%ILVL%]
 ItemDisplay[xtb MAG]: %NAME% %RED%[eth] %GRAY%[%ILVL%]
+ItemDisplay[rin MAG ILVL>88]: %NAME% %RED%[sol] %GRAY%[%ILVL%]
 ItemDisplay[(xlg OR ulg) MAG]: %NAME% %PURPLE%[ort] %GRAY%[%ILVL%]
 ItemDisplay[(uvc OR zvb) MAG]: %NAME% %PURPLE%[ith] %GRAY%[%ILVL%]
+ItemDisplay[amu MAG ILVL>88]: %NAME% %PURPLE%[ral] %GRAY%[%ILVL%]
 ItemDisplay[(mbl OR zmb OR umc) MAG]: %NAME% %PURPLE%[tal] %GRAY%[%ILVL%]
 ItemDisplay[(umg OR xmg) MAG]: %NAME% %WHITE%[%BLUE%ort%WHITE%] %GRAY%[%ILVL%]
 ItemDisplay[uit MAG]: %NAME% %GREEN%[nef] %GRAY%[%ILVL%]
+
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(EQ4 OR EQ5 OR EQ6) ETH RARE]: %GRAY%ETH %YELLOW%%NAME%
